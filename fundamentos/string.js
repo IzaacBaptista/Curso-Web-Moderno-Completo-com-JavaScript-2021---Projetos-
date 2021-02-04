@@ -1,4 +1,4 @@
-const { index } = require("mathjs")
+//const { index } = require("mathjs")
 
 const escola = "cod3r"
 
@@ -21,7 +21,13 @@ console.log(escola.substring(1))
 console.log(escola.substring(0,3))
 
 //concatenando strings
-console.log('Escola'.concat(escola).concat("!"))
+console.log('Escola '.concat(escola).concat("!"))
+//ou
+console.log('Escola ' + escola + "!")
 
 //substituir o valor do indice da string
 console.log(escola.replace(3, 'e'))
+
+//gerar um array indicando a separação da string no valor dentro do split
+console.log('Ana,Maria,Pedro'.split(','))
+
