@@ -16,4 +16,4 @@ console.log(`1 + 1 = ${1 + 1}`)
 
 //função para converter para maisculo
 const up = texto => texto.toUpperCase()
-console.log(`Ei... ${up('cuidado)}!`)
+console.log(`Ei... ${up('cuidado')}!`)
